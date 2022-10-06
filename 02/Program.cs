@@ -21,7 +21,7 @@ int[,] GetMatrix (int rows, int columns)
     {
         for (int j = 0; j < columns; j++)
         {
-            resultMatrix[i,j] = i+j;           
+            resultMatrix[i,j] = (rows-i)+(columns-j) - 2;           
         }
 
     }
